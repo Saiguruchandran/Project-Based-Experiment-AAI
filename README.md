@@ -1,4 +1,4 @@
-<H3>ENTER YOUR NAME: SAI GURUCHANDRAN G</H3>
+<H3>ENTER YOUR NAME: SAIGURUCHANDRAN G</H3>
 <H3>ENTER YOUR REGISTER NO: 212223240143</H3>
 <H3>DATE: 29/04/2025 </H3>
 <H1 Align="center">Project Based Experiment<H1>
@@ -18,8 +18,8 @@ You analyze the "feeling" behind the text — happy, sad, angry, neutral.
 You count how many times a given name (like Alex, Tom, or your name) shows up.
 
 <H3>Program:</H3>
-```
 
+```
 import json
 from textblob import TextBlob
 
@@ -48,8 +48,8 @@ Count occurrences of the name
 your_name = "Alex"
 name_count = full_text.lower().count(your_name.lower())
 print(f"Occurrences of '{your_name}': {name_count}")
-```
 
+```
 
 <H3>Output:</H3>
 
